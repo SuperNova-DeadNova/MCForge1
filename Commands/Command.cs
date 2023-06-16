@@ -71,7 +71,6 @@ namespace MCForge
 			all.Add(new CmdC4());
 			all.Add(new CmdCalculate());
 			all.Add(new CmdChain());
-			all.Add(new CmdChangeLog());
 			all.Add(new CmdChatRoom());
 			all.Add(new CmdClick());
 			all.Add(new CmdCmdBind());
@@ -323,6 +322,9 @@ namespace MCForge
             all.Add(new CmdOldDevs());
             all.Add(new CmdServerInfo());
             all.Add(new CmdWomid());
+			all.Add(new CmdPClients());
+            // I'll leave it here just in case I decide to update the changelog, though highly not likely.
+            //all.Add(new CmdChangeLog());
             // These ones don't work or are out of date
             // all.Add(new CmdHost());
             // all.Add(new CmdServerReport());

@@ -113,7 +113,7 @@ namespace MCForge
         public static PlayerList muted;
         public static PlayerList ignored;
 
-        // The MCForge Developer List
+        // The Old MCForge Developer List
         internal static readonly List<string> olddevs = new List<string>();
         public static List<string> oldDevs { get { return new List<string>(olddevs); } }
         //The MCForge Moderation List
@@ -123,10 +123,10 @@ namespace MCForge
 		internal static readonly List<string> gcmods = new List<string>(new string[] { "rwayy", "David", "JoeBukkit", "notrwaeh" } );
         public static List<string> GCmods { get { return new List<string>(gcmods); } }
 
-        //GCMods List
-        internal static readonly List<string> devs = new List<string>(new string[]
-{"sethbatman05", "Special Thanks to the original MCForge Developers (sadly not listed)" });
+        // The New MCForge Developer List
+        internal static readonly List<string> devs = new List<string>();
         public static List<string> Devs { get { return new List<string>(devs); } }
+        //GCMods List
         internal static readonly List<string> protectover = new List<string>(new string[] { "moderate", "mute", "freeze", "lockdown", "ban", "banip", "kickban", "kick", "global", "xban", "xundo", "undo", "uban", "unban", "unbanip", "demote", "promote", "restart", "shutdown", "setrank", "warn", "tempban", "impersonate", "sendcmd", "possess", "joker", "jail", "ignore", "voice" });
         public static List<string> ProtectOver { get { return new List<string>(protectover); } }
 

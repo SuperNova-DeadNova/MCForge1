@@ -27,10 +27,6 @@ namespace MCForge.Commands
         public override bool museumUsable { get { return true; } }
         public override LevelPermission defaultRank { get { return LevelPermission.Guest; } }
         public CmdPlayers() { }
-        public override CommandAlias[] Aliases
-        {
-            get { return new[] { new CommandAlias("pclients", "clients") }; }
-        }
         struct groups { public Group group; public List<string> players; }
         public override void Use(Player p, string message)
         {

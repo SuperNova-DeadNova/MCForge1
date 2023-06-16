@@ -119,6 +119,7 @@
     <Compile Include="Commands\Added\CmdBCHeartbeat2.cs" />
     <Compile Include="Commands\Added\CmdCCHeartbeat2.cs" />
     <Compile Include="Commands\Added\CmdDevs.cs" />
+    <Compile Include="Commands\Added\CmdPClients.cs" />
     <Compile Include="Commands\Added\CmdServerInfo.cs" />
     <Compile Include="Commands\Added\CmdWomid.cs" />
     <Compile Include="Commands\CmdConvertAll.cs" />
@@ -233,7 +234,7 @@
     <Compile Include="Commands\CmdAscend.cs" />
     <Compile Include="Commands\CmdBanEdit.cs" />
     <Compile Include="Commands\CmdDescend.cs" />
-    <Compile Include="Commands\CmdPumpkin.cs" />
+    <Compile Include="Commands\Added\Unused\CmdPumpkin.cs" />
     <Compile Include="Commands\CmdRankInfo.cs" />
     <Compile Include="Commands\CmdReview.cs" />
     <Compile Include="Commands\CmdTranslate.cs" />
@@ -249,7 +250,7 @@
     <Compile Include="Commands\CmdBanlist.cs" />
     <Compile Include="Commands\CmdCalculate.cs" />
     <Compile Include="Commands\CmdChain.cs" />
-    <Compile Include="Commands\CmdChangeLog.cs" />
+    <Compile Include="Commands\Added\Unused\CmdChangeLog.cs" />
     <Compile Include="Commands\CmdChatRoom.cs" />
     <Compile Include="Commands\CmdCompload.cs" />
     <Compile Include="Commands\CmdCountdown.cs" />
@@ -267,12 +268,12 @@
     <Compile Include="Commands\CmdFetch.cs" />
     <Compile Include="Commands\CmdFliphead.cs" />
     <Compile Include="Commands\CmdGarbage.cs" />
-    <Compile Include="Commands\CmdGlobal.cs" />
+    <Compile Include="Commands\Added\Unused\CmdGlobal.cs" />
     <Compile Include="Commands\CmdInfect.cs" />
     <Compile Include="Commands\CmdInfected.cs" />
     <Compile Include="Commands\CmdKillPhysics.cs" />
     <Compile Include="Commands\CmdLavaSurvival.cs" />
-    <Compile Include="Commands\CmdNyan.cs" />
+    <Compile Include="Commands\Added\Unused\CmdNyan.cs" />
     <Compile Include="Commands\CmdPatrol.cs" />
     <Compile Include="Commands\CmdGlobalCLS.cs" />
     <Compile Include="Commands\CmdHackRank.cs" />
@@ -431,7 +432,7 @@
     <Compile Include="Commands\CmdPermissionVisit.cs" />
     <Compile Include="Commands\CmdPhysics.cs" />
     <Compile Include="Commands\CmdPlace.cs" />
-    <Compile Include="Commands\CmdPlayers.cs" />
+    <Compile Include="Commands\Added\CmdPlayers.cs" />
     <Compile Include="Commands\CmdPortal.cs" />
     <Compile Include="Commands\CmdRedo.cs" />
     <Compile Include="Commands\CmdReplace.cs" />
@@ -441,7 +442,7 @@
     <Compile Include="Commands\CmdRules.cs" />
     <Compile Include="Commands\CmdSave.cs" />
     <Compile Include="Commands\CmdSay.cs" />
-    <Compile Include="Commands\CmdServerReport.cs" />
+    <Compile Include="Commands\Added\Unused\CmdServerReport.cs" />
     <Compile Include="Commands\CmdSetRank.cs" />
     <Compile Include="Commands\CmdSetspawn.cs" />
     <Compile Include="Commands\CmdSpawn.cs" />
@@ -467,7 +468,7 @@
     <Compile Include="Commands\CommandList.cs" />
     <Compile Include="Commands\CmdMegaboid.cs" />
     <Compile Include="Commands\CmdReplaceNot.cs" />
-    <Compile Include="Commands\CmdHost.cs" />
+    <Compile Include="Commands\Added\Unused\CmdHost.cs" />
     <Compile Include="Commands\CmdInvincible.cs" />
     <Compile Include="Commands\CmdLowlag.cs" />
     <Compile Include="Commands\CmdLine.cs" />
@@ -492,7 +493,7 @@
     <Compile Include="Commands\CmdReplaceAll.cs" />
     <Compile Include="Commands\CmdDeleteLvl.cs" />
     <Compile Include="Commands\CmdRide.cs" />
-    <Compile Include="Commands\CmdUpdate.cs" />
+    <Compile Include="Commands\Added\Unused\CmdUpdate.cs" />
     <Compile Include="Commands\CmdCmdBind.cs" />
     <Compile Include="Commands\CmdRepeat.cs" />
     <Compile Include="Commands\CmdEmote.cs" />

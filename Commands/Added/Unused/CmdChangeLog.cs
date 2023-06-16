@@ -15,6 +15,8 @@
 	or implied. See the Licenses for the specific language governing
 	permissions and limitations under the Licenses.
 */
+/*
+// I'll leave it here just in case I decide to update the changelog, though highly not likely.
 using System;
 using System.IO;
 using System.Linq;
@@ -99,3 +101,4 @@ namespace MCForge.Commands
         }
     }
 }
+*/

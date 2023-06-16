@@ -63,7 +63,6 @@ namespace MCForge.Commands
             new CommandKeywords((new CmdC4()), "tnt c4 explosion");
             new CommandKeywords((new CmdCalculate()), "calc number");
             new CommandKeywords((new CmdChain()), "grab block mushroom brown");
-            new CommandKeywords((new CmdChangeLog()), "mcforge change log");
             new CommandKeywords((new CmdChatRoom()), "chat room join leave del add remove");
             new CommandKeywords((new CmdClick()), "block use");
             new CommandKeywords((new CmdCmdBind()), "bind cmd command shortcut");
@@ -290,6 +289,7 @@ namespace MCForge.Commands
             new CommandKeywords((new CmdZombieGame()), "zombie game");
             new CommandKeywords((new CmdZone()), "area");
             new CommandKeywords((new CmdZz()), "static cuboid");
+            // New/edited commands
             new CommandKeywords((new CmdCCHeartbeat()), "heart classicube server list");
             new CommandKeywords((new CmdUpdate()), "server software mcforge");
             new CommandKeywords((new CmdCCHeartbeat2()), "heart 2 classicube server list");
@@ -301,6 +301,10 @@ namespace MCForge.Commands
             new CommandKeywords((new CmdDevs()), "dev mcforge forgeware forgecraft");
             new CommandKeywords((new CmdOldDevs()), "old dev original mcforge forgeware forgecraft");
             new CommandKeywords((new CmdServerInfo()), "server stats info");
+            new CommandKeywords((new CmdPClients()), "clients player app");
+            // I'll leave it here just in case I decide to update the changelog, though highly not likely.
+            // new CommandKeywords((new CmdChangeLog()), "mcforge change log");
+            // These ones don't work or are out of date
             //new CommandKeywords((new CmdServerReport()), "report server");
             // new CommandKeywords((new CmdHost()), "Owner server " + Server.Owner + " " + Server.ZallState);
             // new CommandKeywords((new CmdPumpkin()), "halloween");

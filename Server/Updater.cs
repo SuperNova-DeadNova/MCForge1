@@ -47,7 +47,8 @@ namespace MCForge_.Gui
         public const string UploadsURL = "https://github.com/RandomStrangers/MCForge/raw/master/Uploads/";
         const string CurrentVersionURL = UploadsURL + "current_version.txt";
         const string dllURL = UploadsURL + "MCForge_.dll";
-        const string changelogURL = UploadsURL + "Changelog.txt";
+        // I'll leave it here just in case I decide to update the changelog, though highly not likely.
+        // const string changelogURL = UploadsURL + "Changelog.txt";
         const string guiURL = UploadsURL + "MCForge.exe";
         const string cliURL = UploadsURL + "MCForgeCLI.exe";
 
@@ -206,7 +207,8 @@ namespace MCForge_.Gui
                             Client1.DownloadString(dllURL);
                             Client1.DownloadString(guiURL);
                             Client1.DownloadString(cliURL);
-                            Client1.DownloadString(changelogURL);
+                            // I'll leave it here just in case I decide to update the changelog, though highly not likely.
+                            // Client1.DownloadString(changelogURL);
 
                             // Its possible there are no levels or players loaded yet
                             // Only save them if they exist, otherwise we fail-whale
