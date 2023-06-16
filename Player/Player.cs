@@ -4190,7 +4190,6 @@ return;
         {
             byte[] buffer = new byte[130];
             // Random rand = new Random();
-            buffer[0] = Server.Version2;
             if (UsingWom && (level.textures.enabled || level.motd == "texture") && group.Permission >= level.textures.LowestRank.Permission) { StringFormat(Server.name, 64).CopyTo(buffer, 1); StringFormat("&0cfg=" + (IsLocalIpAddress(ip) ? ip : Server.IP) + ":" + Server.port + "/" + level.name, 64).CopyTo(buffer, 65); }
             if (level.motd == "ignore")
             {

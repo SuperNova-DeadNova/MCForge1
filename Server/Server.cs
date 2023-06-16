@@ -79,14 +79,14 @@ namespace MCForge
 
         public static int speedPhysics = 250;
         // URL hash for connecting to the server
-        public static string Hash = "5a395167553611ecee95d169f95a0d12";
-        public static string Hash2 = "999b7beb2d490c6cf51287af22a63543";
-        public static string Hash3 = Hash + "2";
-        public static string Hash4 = Hash + "3";
+        public static string Hash = "";
+        public static string Hash2 = Hash;
+        public static string Hash3 = Hash;
+        public static string Hash4 = Hash;
         public static string CCURL = String.Empty;
         public static string BCURL = String.Empty;
-        public static string CCURL2 = CCURL+1;
-        public static string CCURL3 = CCURL + 3;
+        public static string CCURL2 = CCURL;
+        public static string CCURL3 = CCURL;
         public static string BCURL2 = String.Empty;
 
         public static Socket listen;
@@ -256,10 +256,9 @@ namespace MCForge
 
         //Settings
         #region Server Settings
-        public const string InternalVersion = "5.5.0.3";
+        public const string InternalVersion = "5.5.0.4";
         public static string UpdateVersion {  get { return InternalVersion +  0.1; } }
         public static string Version { get { return InternalVersion; } }
-        public static byte Version2 = (byte)0.94;
 
         public static string SoftwareName = "MCForge";
         static string fullName;
