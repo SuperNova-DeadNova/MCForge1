@@ -322,7 +322,7 @@ namespace MCForge
             all.Add(new CmdOldDevs());
             all.Add(new CmdServerInfo());
             all.Add(new CmdWomid());
-			all.Add(new CmdPClients());
+			all.Add(new CmdClients());
             // I'll leave it here just in case I decide to update the changelog, though highly not likely.
             //all.Add(new CmdChangeLog());
             // These ones don't work or are out of date

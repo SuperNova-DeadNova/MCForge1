@@ -119,7 +119,6 @@ namespace MCForge.Commands
             new CommandKeywords((new CmdHigh5()), "high 5 fun");
             new CommandKeywords((new CmdHighlight()), "mod high light block change history");
             new CommandKeywords((new CmdHollow()), "block create");
-
             new CommandKeywords((new CmdIgnore()), "abort chat player");
             new CommandKeywords((new CmdImpersonate()), "possess player");
             new CommandKeywords((new CmdImport()), "dat imp extra");
@@ -301,7 +300,7 @@ namespace MCForge.Commands
             new CommandKeywords((new CmdDevs()), "dev mcforge forgeware forgecraft");
             new CommandKeywords((new CmdOldDevs()), "old dev original mcforge forgeware forgecraft");
             new CommandKeywords((new CmdServerInfo()), "server stats info");
-            new CommandKeywords((new CmdPClients()), "clients player app");
+            new CommandKeywords((new CmdClients()), "clients player app");
             // I'll leave it here just in case I decide to update the changelog, though highly not likely.
             // new CommandKeywords((new CmdChangeLog()), "mcforge change log");
             // These ones don't work or are out of date

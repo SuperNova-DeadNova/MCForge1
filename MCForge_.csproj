@@ -119,7 +119,7 @@
     <Compile Include="Commands\Added\CmdBCHeartbeat2.cs" />
     <Compile Include="Commands\Added\CmdCCHeartbeat2.cs" />
     <Compile Include="Commands\Added\CmdDevs.cs" />
-    <Compile Include="Commands\Added\CmdPClients.cs" />
+    <Compile Include="Commands\Added\CmdClients.cs" />
     <Compile Include="Commands\Added\CmdServerInfo.cs" />
     <Compile Include="Commands\Added\CmdWomid.cs" />
     <Compile Include="Commands\CmdConvertAll.cs" />

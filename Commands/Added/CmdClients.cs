@@ -19,14 +19,14 @@ using System;
 using System.Collections.Generic;
 namespace MCForge.Commands
 {
-    public class CmdPClients : Command
+    public class CmdClients : Command
     {
-        public override string name { get { return "PClients"; } }
+        public override string name { get { return "pclients"; } }
         public override string shortcut { get { return  "clients"; } }
         public override string type { get { return "information"; } }
         public override bool museumUsable { get { return true; } }
         public override LevelPermission defaultRank { get { return LevelPermission.Guest; } }
-        public CmdPClients() { }
+        public CmdClients() { }
         public override CommandAlias[] Aliases
         {
             get { return new[] { new CommandAlias("clients") }; }
@@ -182,7 +182,7 @@ namespace MCForge.Commands
 
         public override void Help(Player p)
         {
-            Player.SendMessage(p, "/pclients [rank] - Does the same thing as /players, here to ClassiCube clients happy.");
+            Player.SendMessage(p, "/pclients [rank] - Does the same thing as /players, here to make ClassiCube clients happy.");
         }
     }
 }
