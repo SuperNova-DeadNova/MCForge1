@@ -38,7 +38,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>pdbonly</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
+    <OutputPath>Uploads\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -157,7 +157,6 @@
       <DependentUpon>WoM.cs</DependentUpon>
     </Compile>
     <Compile Include="Heartbeat\BetaCraftBeat2.cs" />
-    <Compile Include="Heartbeat\ClassiCubeBeat - Copy.cs" />
     <Compile Include="Heartbeat\ClassiCubeBeat2.cs" />
     <Compile Include="Player\Added\Player.CPE.cs" />
     <Compile Include="Player\Opcode.cs" />

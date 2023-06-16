@@ -83,11 +83,10 @@ namespace MCForge
         public static string Hash2 = Hash;
         public static string Hash3 = Hash;
         public static string Hash4 = Hash;
-        public static string CCURL = String.Empty;
-        public static string BCURL = String.Empty;
-        public static string CCURL2 = CCURL;
-        public static string CCURL3 = CCURL;
-        public static string BCURL2 = String.Empty;
+        public static string CCURL = string.Empty;
+        public static string BCURL = string.Empty;
+        public static string CCURL2 = string.Empty;
+        public static string BCURL2 = string.Empty;
 
         public static Socket listen;
         public static System.Diagnostics.Process process = System.Diagnostics.Process.GetCurrentProcess();
@@ -255,10 +254,24 @@ namespace MCForge
         public static System.Timers.Timer omnibanCheckTimer = new System.Timers.Timer(60000 * 120);
 
         //Settings
+
         #region Server Settings
+
+        /// <summary>
+        /// SoftwareName2 and SoftwareNameVersioned2 are for Betacraft heartbeats 
+        /// since BetaCraft doesn't allow MCForge to connect using its default SoftwareName.
+        /// </summary>
         public const string InternalVersion = "5.5.0.4";
-        public static string UpdateVersion {  get { return InternalVersion +  0.1; } }
+        public static string UpdateVersion { get { return InternalVersion + 0.1; } }
         public static string Version { get { return InternalVersion; } }
+        public static string SoftwareName2 = "MCGalaxy";
+        static string fullName2;
+        public static string SoftwareNameVersioned2
+        {
+            // By default, if SoftwareName gets externally changed, that is reflected in SoftwareNameVersioned too
+            get { return fullName2 ?? SoftwareName2 + " " + Version; }
+            set { fullName2 = value; }
+        }
 
         public static string SoftwareName = "MCForge";
         static string fullName;
@@ -270,11 +283,10 @@ namespace MCForge
         }
         public static string salt = "";
 		public static string salt2 = salt;
-        public static string salt3 = salt + "g3";
-        public static string salt4 = salt + "1bfgyew13";
+        public static string salt3 = salt;
+        public static string salt4 = salt;
 
         public static string name = "[MCForge] Default";
-        public static string name2 = "[MCForge]";
         public static string motd = "Welcome!";
 		public static string textureUrl = "";
         public static byte players = 12;

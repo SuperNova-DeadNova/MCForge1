@@ -47,7 +47,6 @@ namespace MCForge {
         private readonly static IBeat[] Beats = {
 
             //Keep in this order.
-            new ClassiCubeBeat3(),
             new ClassiCubeBeat(),
             new ClassiCubeBeat2(),
             new BetaCraftBeat(),

@@ -19,7 +19,7 @@ using System;
 using System.IO;
 namespace MCForge
 {
-    public sealed class ClassiCubeBeat3 : IBeat
+    public sealed class ClassiCubeBeat : IBeat
     {
         public bool UrlSaid = false;
 

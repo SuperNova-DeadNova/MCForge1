@@ -38,14 +38,14 @@ namespace MCForge
 
         public string Prepare()
         {
-            return "&port=" + Server.port2 +
+            return "&port=" + Server.port +
                 "&max=" + Server.players +
                 "&name=" + Heart.EncodeUrl(Server.name) +
                 "&public=" + Server.pub +
                 "&version=7" +
-                "&salt=" + Server.salt2 +
+                "&salt=" + Server.salt +
                 "&users=" + Player.players.Count +
-                "&software=MCGalaxy 5.5.0.3";
+                "&software=" + Server.SoftwareNameVersioned2;
         }
 
         public void OnResponse(string line)
@@ -57,7 +57,7 @@ namespace MCForge
                 string newHash = line.Substring(line.LastIndexOf('/') + 1);
 
                 // Run this code if we don't already have a hash or if the hash has changed
-                if (String.IsNullOrEmpty(Server.Hash3) || !newHash.Equals(Server.Hash3))
+                if (String.IsNullOrEmpty(Server.Hash) || !newHash.Equals(Server.Hash))
                 {
                     File.WriteAllText("text/BC2externalurl.txt", Server.BCURL2);
                     if (Url2Said == false)

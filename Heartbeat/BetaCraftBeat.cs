@@ -45,7 +45,7 @@ namespace MCForge
                 "&version=7" +
                 "&salt=" + Server.salt2 +
                 "&users=" + Player.number +
-                "&software=MCGalaxy 5.5.0.3";
+                "&software=" + Server.SoftwareNameVersioned2;
         }
 
         public void OnResponse(string line)
@@ -57,7 +57,7 @@ namespace MCForge
                 string newHash = line.Substring(line.LastIndexOf('/') + 1);
 
                 // Run this code if we don't already have a hash or if the hash has changed
-                if (String.IsNullOrEmpty(Server.Hash2) || !newHash.Equals(Server.Hash2))
+                if (String.IsNullOrEmpty(Server.Hash) || !newHash.Equals(Server.Hash))
                 {
                     File.WriteAllText("text/bcexternalurl.txt", Server.BCURL);
                     if (UrlSaid == false)

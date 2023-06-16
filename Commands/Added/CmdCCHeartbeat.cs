@@ -39,7 +39,7 @@ namespace MCForge.Commands
                 Server.ErrorLog(e);
             }
             Player.SendMessage(p, "Heartbeat pump sent.");
-            Player.SendMessage(p, "ClassiCube URL found: " + Server.CCURL3);
+            Player.SendMessage(p, "ClassiCube URL found: " + Server.CCURL);
         }
 
         public override void Help(Player p)
