@@ -1,15 +1,15 @@
 MCForge Redux
 ===============
 
-Minecraft Classic Custom Server Software
+Minecraft Classic/ClassiCube Custom Server Software
 
 
-About MCForge Redux
+About MCForge 
 ---------------------
 
-MCForge Redux is a classic Minecraft server software based on MCLawl.  It has been released under an open-source [license][1] to allow the community to help us develop it further.  We welcome all pull requests and will merge them in at our own discretion.
+MCForge is a classic Minecraft/ClassiCube server software based on MCLawl.  It has been released under an open-source [license][1] to allow the community to help us develop it further.  We welcome all pull requests and will merge them in at our own discretion.
 
-The official website for MCForge is [mcforge.org][2]
+The official website for MCForge was [mcforge.org][2]
 
 Contributors
 ------------
