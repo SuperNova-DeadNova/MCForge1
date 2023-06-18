@@ -1,4 +1,4 @@
-MCForge Redux
+MCForge
 ===============
 
 Minecraft Classic/ClassiCube Custom Server Software
